@@ -1,0 +1,2 @@
+module PgnoticiaHelper
+end
