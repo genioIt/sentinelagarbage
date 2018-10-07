@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ */
+
+ @import "bootstrap";
+ body {
+    background: rgba(255, 255, 84, 1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 84, 1) 0%, rgba(146, 232, 66, 1) 65%, rgba(112, 179, 48, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 84, 1)), color-stop(65%, rgba(146, 232, 66, 1)), color-stop(100%, rgba(112, 179, 48, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 84, 1) 0%, rgba(146, 232, 66, 1) 65%, rgba(112, 179, 48, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 84, 1) 0%, rgba(146, 232, 66, 1) 65%, rgba(112, 179, 48, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 84, 1) 0%, rgba(146, 232, 66, 1) 65%, rgba(112, 179, 48, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 84, 1) 0%, rgba(146, 232, 66, 1) 65%, rgba(112, 179, 48, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff54', endColorstr='#70b330', GradientType=0 );
+  }
+  
+  html {
+    min-height: 100%;
+  }
+
+  .logoSentinela{
+    width: 120px;
+    height: 10%;    
+  }
+
+  .spaceVertical
+  {
+    padding-top: 2rem;
+  } 
+  
+  #link_login
+  {
+    padding-left: 33rem;
+    padding-right: 2rem;
+  }
+
+  .buttonPanel {
+    -moz-box-shadow:inset 0px 39px 0px -24px #5ed929;
+    -webkit-box-shadow:inset 0px 39px 0px -24px #5ed929;
+    box-shadow:inset 0px 39px 0px -24px #5ed929;
+    background-color:#5ec72e;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #3b6e22;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:6px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #7bad5a;
+  }
+  .buttonPanel:hover {
+    background-color:#68ba3f;
+  }
+  .buttonPanel:active {
+    position:relative;
+    top:1px;
+  }
+
+  a:hover
+  {
+    color: #e2fad2;
+    text-decoration:none !important;
+
+  }
+
+
+  
