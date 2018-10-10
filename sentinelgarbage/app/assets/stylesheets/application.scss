@@ -36,11 +36,10 @@
   {
     padding-top: 2rem;
   } 
-  
-  #link_login
+
+  .spaceHorizontal
   {
-    padding-left: 33rem;
-    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   .buttonPanel {
@@ -74,6 +73,22 @@
     color: #e2fad2;
     text-decoration:none !important;
 
+  }
+  
+  .portfolio-item
+  {
+     margin-bottom: 30px;
+  }
+
+  .tituloNoticia
+  {
+    color:#5ad620;
+  }
+
+  .tituloNoticia:hover
+  {
+    color:#3e7327;
+    text-decoration:none;
   }
 
 

@@ -1,1 +1,22 @@
-<h1>noticias</h1>
+
+<div class="container">
+<h1 class="mt-4 mb-3">Noticias</h1>
+  <div class="row">
+  <% @noticias.each do |noticia| %>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">              
+                <a href="#" class="tituloNoticia"><%= noticia.titulo%></a>
+              </h4>
+              <p class="card-text"><%= noticia.descripcion%></p>
+            </div>
+          </div>
+        </div>       
+  <% end%>
+    </div>  
+    <div class="spaceVertical"></div>
+</div>
+    
+   
